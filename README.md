@@ -1,5 +1,8 @@
 # Final Security Assessment Report
 
+**Pentester Name:** Mohamed Ouail Islam Douar
+**Program/Batch:** B082-Networkwalks
+**Date:** 5 September 2026
 **Target:** `mediroza.com`  
 **Assessment Type:** Authorized Web Application Security Assessment  
 **Environment:** Kali Linux / Burp Suite / Browser  
@@ -1079,3 +1082,16 @@ The assessment successfully recovered:
 The combination of application-level vulnerabilities, weak document protection, metadata leakage, directory listing, and insecure backup management resulted in a **Critical overall security risk**.
 
 The highest-priority remediation actions are to eliminate SQL injection, enforce robust authentication and authorization, remove database backups from the public web root, disable directory listing, and establish secure backup and sensitive-data management procedures.
+
+-End-
+
+👤 Author
+
+Mohamed Ouail Islam Douar
+Cybersecurity Intern at Networkwalks
+
+LinkedIn: https://www.linkedin.com/in/mohamed-ouail-islam-douar-b93ab13b4/
+
+📌 Project Information
+
+Program Name: Cybersecurity program at Networkwalks | Week: 04 | Repository: [GitHub](https://github.com/weskkin/networkwalks-B082-week4-mediroza)
