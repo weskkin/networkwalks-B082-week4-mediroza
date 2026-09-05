@@ -1,6 +1,6 @@
 # Final Security Assessment Report
 
-**Target:** `dummywebsite.com`  
+**Target:** `mediroza.com`  
 **Assessment Type:** Authorized Web Application Security Assessment  
 **Environment:** Kali Linux / Burp Suite / Browser  
 **Milestones Covered:** M1 — Initial Access, M2 — Data Extraction, M3 — Attack
@@ -90,7 +90,7 @@ The most serious issue was the combination of **SQL injection, authentication by
 The assessment targeted the authorized hospital web application:
 
 ```text
-https://dummywebsite.com/
+https://mediroza.com/
 ```
 
 The following application areas and resources were investigated during the engagement:
@@ -140,7 +140,7 @@ The assessment followed a progressive methodology.
 The target was first scanned to identify exposed network services and technologies.
 
 ```bash
-nmap -sV -sC dummywebsite.com
+nmap -sV -sC medirozawebsite.com
 ```
 
 The scan identified HTTP and HTTPS services, with the web application representing the primary attack surface.
@@ -148,15 +148,15 @@ The scan identified HTTP and HTTPS services, with the web application representi
 HTTP behavior was then examined using cURL:
 
 ```bash
-curl -I http://dummywebsite.com
+curl -I http://medirozawebsite.com
 ```
 
 ```bash
-curl -k -I https://dummywebsite.com
+curl -k -I https://medirozawebsite.com
 ```
 
 ```bash
-curl -k -v https://dummywebsite.com
+curl -k -v https://medirozawebsite.com
 ```
 
 Application source code and manually accessible directories were subsequently reviewed.
@@ -514,7 +514,7 @@ An internal database backup was therefore publicly discoverable and downloadable
 The file was retrieved using:
 
 ```bash
-wget --no-check-certificate https://dummywebsite.com/old/mediroza_db_backup_2019.sql
+wget --no-check-certificate https://medirozawebsite.com/old/mediroza_db_backup_2019.sql
 ```
 
 The database backup identified itself as:
