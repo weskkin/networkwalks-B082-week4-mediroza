@@ -1,9 +1,9 @@
 # Final Security Assessment Report
 
-**Pentester Name:** Mohamed Ouail Islam Douar
-**Program/Batch:** B082-Networkwalks
-**Date:** 5 September 2026
-**Target:** `mediroza.com`  
+**Pentester Name:** Mohamed Ouail Islam Douar  
+**Program/Batch::** `mediroza.com`  
+**Date:** B082-Networkwalks  
+**Target:** 5 September 2026  
 **Assessment Type:** Authorized Web Application Security Assessment  
 **Environment:** Kali Linux / Burp Suite / Browser  
 **Milestones Covered:** M1 — Initial Access, M2 — Data Extraction, M3 — Attack
